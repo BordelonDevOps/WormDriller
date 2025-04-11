@@ -1,10 +1,34 @@
-DirectionalDriller Pro
-A comprehensive Python application for directional drilling professionals. This all-in-one solution combines advanced mathematical models with an intuitive interface to help plan, monitor, and report on directional drilling operations.
-Key Features
-Precise trajectory calculations using the Minimum Curvature Method
-Interactive 2D/3D wellbore visualization
-Bottom Hole Assembly (BHA) management and analysis
-Professional reporting system with customizable templates
-Robust data management for projects and wells
-Built with Python, NumPy, Matplotlib, Pandas, and PyQt5, this application provides directional drillers with the tools they need to increase efficiency and accuracy in their operations. The application is designed for PC use with plans for future mobile deployment.
-This open-source project welcomes contributions from both industry professionals and developers interested in directional drilling technology.
+# Directional Driller Application
+
+A comprehensive application for directional drilling operations.
+
+## Features
+
+- Well and project management
+- Survey data entry and visualization
+- BHA configuration
+- Trajectory calculations using the Minimum Curvature Method
+- 2D and 3D visualization of wellbore trajectories
+- Comprehensive reporting (DDR, surveys, BHA)
+- Data import/export capabilities
+
+## Installation
+
+### Requirements
+- Python 3.8 or higher
+- Required packages: numpy, matplotlib, pandas, PyQt5
+
+### Setup
+1. Install the required packages:
+   
+2. Run the application:
+   
+
+## Usage
+
+1. Create a new project or open an existing one
+2. Enter well information
+3. Input survey data
+4. Configure BHA components
+5. Visualize wellbore trajectory
+6. Generate reports
