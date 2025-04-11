@@ -145,8 +145,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- Email: info@wormdriller.com
-- Website: www.wormdriller.com
+- Email: Bordelondevops2025@gmail.com
 
 ## 🙏 Acknowledgments
 
