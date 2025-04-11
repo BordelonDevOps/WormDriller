@@ -1,7 +1,7 @@
 # WormDriller - Directional Drilling Solution
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/logo.png" alt="WormDriller Logo" width="200"/>
+  <img src="/logo.png" alt="WormDriller Logo" width="200"/>
   <br>
   <h3>The Complete Solution for Directional Drilling Professionals</h3>
   
@@ -16,7 +16,7 @@
 WormDriller is a comprehensive software solution designed specifically for directional drilling professionals. Built by industry experts, this powerful application combines advanced mathematical models with an intuitive interface to help you plan, monitor, and report on directional drilling operations with unprecedented efficiency and accuracy.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/3d_trajectory.png" alt="3D Wellbore Visualization" width="700"/>
+  <img src="/3d_trajectory.png" alt="3D Wellbore Visualization" width="700"/>
 </div>
 
 ## ✨ Key Features
@@ -28,7 +28,7 @@ WormDriller is a comprehensive software solution designed specifically for direc
 - Build and turn rate optimization
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/trajectory_calc.png" alt="Trajectory Calculations" width="700"/>
+  <img src="trajectory_calc.png" alt="Trajectory Calculations" width="700"/>
 </div>
 
 ### 📊 Powerful Visualization Tools
@@ -44,7 +44,7 @@ WormDriller is a comprehensive software solution designed specifically for direc
 - Component stress and wear prediction
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/bha_diagram.png" alt="BHA Management" width="700"/>
+  <img src="/bha_diagram.png" alt="BHA Management" width="700"/>
 </div>
 
 ### 📝 Professional Reporting System
@@ -54,7 +54,7 @@ WormDriller is a comprehensive software solution designed specifically for direc
 - Multiple export formats (HTML, PDF, CSV)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/survey_report.png" alt="Survey Reporting" width="700"/>
+  <img src="survey_report.png" alt="Survey Reporting" width="700"/>
 </div>
 
 ### 💾 Robust Data Management
@@ -64,7 +64,7 @@ WormDriller is a comprehensive software solution designed specifically for direc
 - Automated data backup and recovery
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/dashboard.png" alt="Project Dashboard" width="700"/>
+  <img src="/dashboard.png" alt="Project Dashboard" width="700"/>
 </div>
 
 ## 🚀 Installation
