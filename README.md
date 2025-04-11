@@ -1,7 +1,7 @@
-# WormDriller
+# WormDriller - Directional Drilling Solution
 
 <div align="center">
-  <img src="promotional/images/logo.png" alt="WormDriller Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/logo.png" alt="WormDriller Logo" width="200"/>
   <br>
   <h3>The Complete Solution for Directional Drilling Professionals</h3>
   
@@ -16,7 +16,7 @@
 WormDriller is a comprehensive software solution designed specifically for directional drilling professionals. Built by industry experts, this powerful application combines advanced mathematical models with an intuitive interface to help you plan, monitor, and report on directional drilling operations with unprecedented efficiency and accuracy.
 
 <div align="center">
-  <img src="promotional/images/3d_viz.png" alt="3D Wellbore Visualization" width="600"/>
+  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/3d_trajectory.png" alt="3D Wellbore Visualization" width="700"/>
 </div>
 
 ## ✨ Key Features
@@ -28,7 +28,7 @@ WormDriller is a comprehensive software solution designed specifically for direc
 - Build and turn rate optimization
 
 <div align="center">
-  <img src="promotional/images/trajectory_calc.png" alt="Trajectory Calculations" width="600"/>
+  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/trajectory_calc.png" alt="Trajectory Calculations" width="700"/>
 </div>
 
 ### 📊 Powerful Visualization Tools
@@ -44,7 +44,7 @@ WormDriller is a comprehensive software solution designed specifically for direc
 - Component stress and wear prediction
 
 <div align="center">
-  <img src="promotional/images/bha.png" alt="BHA Management" width="600"/>
+  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/bha_diagram.png" alt="BHA Management" width="700"/>
 </div>
 
 ### 📝 Professional Reporting System
@@ -54,7 +54,7 @@ WormDriller is a comprehensive software solution designed specifically for direc
 - Multiple export formats (HTML, PDF, CSV)
 
 <div align="center">
-  <img src="promotional/images/reporting.png" alt="Reporting System" width="600"/>
+  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/survey_report.png" alt="Survey Reporting" width="700"/>
 </div>
 
 ### 💾 Robust Data Management
@@ -64,7 +64,7 @@ WormDriller is a comprehensive software solution designed specifically for direc
 - Automated data backup and recovery
 
 <div align="center">
-  <img src="promotional/images/dashboard.png" alt="Project Dashboard" width="600"/>
+  <img src="https://raw.githubusercontent.com/BordelonDevOps/WormDriller/main/images/dashboard.png" alt="Project Dashboard" width="700"/>
 </div>
 
 ## 🚀 Installation
@@ -145,15 +145,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- Email: bordelondevops2025@gmail.com
+- Email: info@wormdriller.com
+- Website: www.wormdriller.com
 
 ## 🙏 Acknowledgments
 
-Harold Bordelon’s legacy in the oilfields of South Louisiana and South Texas is a testament to his grit, expertise, and ability to transform struggling operations into profitable ventures. As a driller, company man, and mentor, he left an indelible mark on the industry, earning a reputation for turning around oilwells with a blend of hands-on skill, strategic insight, and a knack for inspiring those around him.
-
-As a driller, Harold was the backbone of rig operations, overseeing the complex and high-stakes process of boring into the earth to extract oil. This role demanded technical precision, an intimate understanding of geology, and the ability to manage a crew under intense pressure. Oilwells often teetered on the edge of financial viability, and Harold’s ability to optimize drilling efficiency—whether by fine-tuning equipment, adjusting techniques, or navigating unforeseen challenges like equipment failures or tricky formations—set him apart. His reputation for taking wells that bled money and steering them to profitability likely stemmed from his sharp problem-solving and a dogged refusal to let obstacles derail progress. In South Louisiana and South Texas, where oilfields are as unforgiving as they are lucrative, Harold’s hands-on expertise made him a go-to figure for operators desperate to reverse their fortunes.
-
-As a company man, Harold’s role expanded to represent the interests of the oil company on-site, acting as the critical link between the rig crew and corporate objectives. This position required a broader vision: he wasn’t just managing the drill bit but the entire operation, from budgeting and safety compliance to coordinating with geologists, engineers, and executives. His knack for turning losses into profits likely came from his ability to balance cost-cutting with operational excellence—knowing when to push a crew harder and when to invest in a smarter approach. The oilfields of the Gulf South are notorious for their high stakes, with millions of dollars riding on every well. Harold’s steady hand ensured that rigs under his watch didn’t just survive but thrived, delivering returns in an industry where margins can be razor-thin.
-Perhaps most enduring was Harold’s role as a mentor. Over his 40-year career, he shaped countless young oilfield professionals who went on to become executives, engineers, and leaders in their own right. The oilfield is a crucible—long hours, harsh conditions, and constant pressure weed out the faint-hearted. Harold didn’t just teach technical skills; he modeled resilience, accountability, and the kind of practical wisdom that only comes from decades of experience. He likely had a no-nonsense style, tempered by a genuine investment in his mentees’ success. Stories from the field probably include late-night troubleshooting sessions, impromptu lessons on rig floors, and moments where he pushed a young roughneck or engineer to think bigger, work smarter, and own their decisions. His influence rippled beyond the wells he turned around, as his protégés carried his lessons into boardrooms and new ventures across the industry.
-
-South Louisiana and South Texas oilfields, with their mix of onshore and offshore rigs, were Harold’s proving ground. These regions, rich in oil but fraught with challenges like volatile markets and complex reservoirs, demanded someone who could thrive in uncertainty. Harold Bordelon didn’t just meet that demand—he exceeded it, building a legacy as a driller who mastered the craft, a company man who delivered results, and a mentor whose impact endures in the careers he shaped. His story is one of sweat, ingenuity, and a quiet pride in seeing wells, and people, reach their potential.
+- Special thanks to all the directional drilling professionals who provided valuable input
+- [NumPy](https://numpy.org/) for numerical computations
+- [Matplotlib](https://matplotlib.org/) for visualization capabilities
+- [Pandas](https://pandas.pydata.org/) for data manipulation
+- [PyQt5](https://www.riverbankcomputing.com/software/pyqt/) for the user interface
