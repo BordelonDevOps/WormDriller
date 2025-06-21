@@ -29,7 +29,7 @@ Precise Trajectory Calculations
 
 
 <div align="center">
-  <img src="trajectory_calc.png" alt="Trajectory Calculations" width="700"/>
+ ## <img src="trajectory_calc.png" alt="Trajectory Calculations" width="700"/>
 </div>
 
 Core Features
