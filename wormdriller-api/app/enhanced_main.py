@@ -43,7 +43,7 @@ async def lifespan(app: FastAPI):
 
 
 # Create FastAPI application
-app = FastAPI(
+app = FastAPI()
 @app.get("/healthz", tags=["Infra"])
 async def healthz():
     return {"status": "ok"}
