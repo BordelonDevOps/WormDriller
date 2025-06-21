@@ -83,7 +83,7 @@ Integration Layer
 Prerequisites
 - Python 3.8+
 - 4GB RAM minimum
-- 500MB disk space
+- ~25MB disk space
 Run Locally
 ```bash
  Clone the repo
