@@ -26,9 +26,7 @@ Precise Trajectory Calculations
 - Build/Turn Rate Optimization: Automated parameter tuning for smooth trajectories.
 
 
-<div align="center">
- ## <img src="trajectory_calc.png" alt="Trajectory Calculations" width="700"/>
-</div>
+
 
 Core Features
 
