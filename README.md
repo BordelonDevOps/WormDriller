@@ -11,85 +11,99 @@
   ![Status](https://img.shields.io/badge/Status-Beta-orange.svg)
 </div>
 
-## 📋 Overview
+Overview
 
-WormDriller is a comprehensive software solution designed specifically for directional drilling professionals. Built by industry experts, this powerful application combines advanced mathematical models with an intuitive interface to help you plan, monitor, and report on directional drilling operations with unprecedented efficiency and accuracy.
+WormDriller is a comprehensive software solution designed specifically for directional drilling professionals. This hybrid application combines advanced mathematical models with an intuitive interface to help you plan, monitor, and report on directional drilling operations with unprecedented efficiency and accuracy by utilizing the combining the power of modern cloud-native APIs with the familiarity of a robust desktop application.  
 
 <div align="center">
   <img src="/3d_trajectory.png" alt="3D Wellbore Visualization" width="700"/>
 </div>
+<div align="center">
+  <img src="assets/hybrid_architecture_overview.png" alt="Hybrid Architecture Overview" width="700"/>
+</div>
 
-## ✨ Key Features
+Key Features
 
-### 🎯 Precise Trajectory Calculations
-- Industry-standard Minimum Curvature Method
-- Real-time dogleg severity analysis
-- Advanced anti-collision detection
-- Build and turn rate optimization
+Precise Trajectory Calculations
+- Industry-Standard Calculations: Minimum curvature method with SPE/IADC compliance.
+- Real-time Dogleg Analysis: Continuous wellbore quality monitoring.
+- Anti-Collision Detection: Advanced proximity checks for multi-well operations.
+- Build/Turn Rate Optimization: Automated parameter tuning for smooth trajectories.
+
 
 <div align="center">
   <img src="trajectory_calc.png" alt="Trajectory Calculations" width="700"/>
 </div>
 
-### 📊 Powerful Visualization Tools
-- Interactive 2D wellbore trajectory plots
-- Immersive 3D wellbore visualization
-- Inclination and azimuth analysis graphs
-- Comparative planned vs. actual trajectory views
+Core Features
 
-### 🔧 Comprehensive BHA Management
-- Detailed BHA component configuration
-- Performance analysis and optimization
-- Historical BHA tracking and comparison
-- Component stress and wear prediction
+ Precision Directional Drilling
+- Industry-Standard Calculations: Minimum curvature method with SPE/IADC compliance.
+- Real-time Dogleg Analysis: Continuous wellbore quality monitoring.
+- Anti-Collision Detection: Advanced proximity checks for multi-well operations.
+- Build/Turn Rate Optimization: Automated parameter tuning for smooth trajectories.
+
+ Machine Learning & Analytics
+- ROP Prediction: XGBoost-powered rate of penetration forecasting.
+- Formation Analysis: Automated lithology detection & parameter optimization.
+- Performance Analytics: Historical data insights and trend recognition.
+- Predictive Maintenance: Early warnings for equipment performance and potential failures.
+
+ Advanced Visualization
+- 3D Wellbore Visualization: Interactive trajectory plotting with live updates.
+- Multi-Well Planning: Full field development visualization.
+- Real-time Dashboards: Live drilling parameter monitoring and intelligent alerts.
+- Custom Reporting: Auto-generated, industry-compliant reports in multiple formats.
+
+ Integration & API
+- RESTful API: OpenAPI 3.0 spec with interactive FastAPI docs.
+- LAS File Processing: Automated well log ingestion and validation.
+- Third-Party Compatibility: Integrates with major drilling software platforms.
+- Real-time Streaming: WebSocket support for live telemetry feeds.
+---
+ Architecture Overview
+
+The WormDriller Architecture consists of three main components working seamlessly:
+
+Enhanced Desktop Application
+   - Framework: PyQt6 with modern UI
+   - Capabilities: Full directional workflows, project management, visualizations
+   - Integration: Direct API communication with offline fallback
+   - Field Performance: Lightweight, efficient for remote rig conditions
+ FastAPI Service
+   - Framework: FastAPI with auto-generated OpenAPI documentation
+   - Capabilities: ML predictions, complex calculations, secure cloud endpoints
+   - Scalability: Horizontal scaling, load balancing, caching
+   - Security: JWT authentication, API key control, rate limiting
+Integration Layer
+   - Communication: REST + WebSocket for real-time updates
+   - Data Sync: Automated sync between desktop & cloud
+   - Offline Mode: Full feature fallback with graceful error handling
+   - Robustness: Retry mechanisms for unstable connections
 
 <div align="center">
-  <img src="/bha_diagram.png" alt="BHA Management" width="700"/>
+  <img src="assets/system_architecture_diagram.png" alt="System Architecture Diagram" width="700"/>
 </div>
 
-### 📝 Professional Reporting System
-- Customizable Daily Drilling Reports (DDR)
-- Detailed survey reports with visualizations
-- Comprehensive BHA reports
-- Multiple export formats (HTML, PDF, CSV)
-
-<div align="center">
-  <img src="survey_report.png" alt="Survey Reporting" width="700"/>
-</div>
-
-### 💾 Robust Data Management
-- Secure project and well organization
-- CSV import/export capabilities
-- Historical data tracking and analysis
-- Automated data backup and recovery
-
-<div align="center">
-  <img src="/dashboard.png" alt="Project Dashboard" width="700"/>
-</div>
-
-## 🚀 Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- 4GB RAM (minimum)
+---
+ Installation & Quick Start
+Prerequisites
+- Python 3.8+
+- 4GB RAM minimum
 - 500MB disk space
+Run Locally
+```bash
+ Clone the repo
+git clone https://github.com/BordelonDevOps/WormDriller.git
+cd WormDriller
+ Install dependencies (API + Desktop)
+pip install -r wormdriller-api/requirements.txt
+pip install -r wormdriller_desktop_hybrid/requirements.txt
+ Run the API service
+uvicorn wormdriller_api.app.enhanced_main:app --reload
+ Run the Desktop app
+python wormdriller_desktop_hybrid/main.py
 
-### Quick Start
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/BordelonDevOps/WormDriller.git
-   cd WormDriller
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the application:
-   ```bash
-   python main.py
-   ```
 
 ## 📖 Documentation
 
