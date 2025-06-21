@@ -16,9 +16,6 @@ Overview
 WormDriller is a comprehensive software solution designed specifically for directional drilling professionals. This hybrid application combines advanced mathematical models with an intuitive interface to help you plan, monitor, and report on directional drilling operations with unprecedented efficiency and accuracy by utilizing the combining the power of modern cloud-native APIs with the familiarity of a robust desktop application.  
 
 <div align="center">
-  <img src="/3d_trajectory.png" alt="3D Wellbore Visualization" width="700"/>
-</div>
-<div align="center">
   <img src="assets/hybrid_architecture_overview.png" alt="Hybrid Architecture Overview" width="700"/>
 </div>
 
